@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]

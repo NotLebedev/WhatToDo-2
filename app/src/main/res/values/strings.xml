@@ -1,0 +1,31 @@
+<resources>
+
+    <string name="app_name">WhatToDo</string>
+
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="confirm_sending">Confirm sending</string>
+
+    <string name="title_activity_test">TestActivity</string>
+
+    <string name="example_text">Example text, remove after testing. VEEEEEEEERY long and complicated</string>
+
+    <!-->Add task activity strings</-->
+    <string name="bar_add_title">Add task</string>
+    <string name="task_description_hint">Type here what to do</string>
+    <string name="add_button_text">Add task</string>
+    <string name="add_priority_hint">Set task priority</string>
+
+    <!-->Modify activity strings</-->
+    <string name="bar_modify_title">Edit task</string>
+    <string name="modify_button_text">Submit</string>
+    <string name="modify_priority_hint">Change task priority</string>
+
+    <!-->Delete dialog strings</-->
+    <string name="dialog_is_done_message">Is this task done?</string>
+    <string name="yes">Yes</string>
+    <string name="no">Not yet</string>
+    <string name="add_description">Add Description</string>
+    <string name="add_date">Add Date</string>
+
+</resources>

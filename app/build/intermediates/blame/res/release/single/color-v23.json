@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_thumb.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_edittext.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_default.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_spinner.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_switch_track.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_color_highlight_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/design_tint_password_toggle.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    }
+]

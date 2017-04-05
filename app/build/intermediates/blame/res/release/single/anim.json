@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_slide_out_top.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_popup_exit.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_out.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_slide_out_bottom.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_slide_in_top.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_fab_in.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_fab_in.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_fade_out.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_popup_enter.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_snackbar_in.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_snackbar_in.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_snackbar_out.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_snackbar_out.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_slide_in_bottom.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/abc_fade_in.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/anim/abc_fade_in.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/anim/design_fab_out.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/anim/design_fab_out.xml"
+    }
+]

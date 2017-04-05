@@ -1,0 +1,4 @@
+#Tue Mar 21 18:12:53 MSK 2017
+base.0=/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

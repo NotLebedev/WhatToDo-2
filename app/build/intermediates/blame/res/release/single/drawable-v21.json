@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/avd_show_password.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/notification_action_background.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/abc_edit_text_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/avd_hide_password.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/design_password_eye.xml",
+        "source": "/root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/release/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

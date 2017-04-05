@@ -1,0 +1,84 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+application
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support:design:25.1.1] /root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/.android/build-cache/14fd0d4ad8ba0c03729e48a409e69c84ee40f4a7/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/build-cache/8c4049403a5edb8c40b495dbe3fcb76061d85460/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.1.1] /root/.android/build-cache/b3f768b239856ab7348a85196275d1bbdaf2d9c5/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /root/.android/build-cache/5578e1eedd7cb23dd6563b6e809c52b2fced3f07/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /root/.android/build-cache/2d75c6dcccaa27ba840fe7e4cb71832d042df466/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /root/.android/build-cache/3e5c3a9f489ff13a6dd27ac50dd5b0a8413d48ac/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/3ddbe6768ad948affc4f42358e790694fada74c9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /root/.android/build-cache/7016986db89041c9274e3eeca99c3da91d3985df/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/7a15b39aaef322eb12cc71a87b60402d42cc2615/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] /root/.android/build-cache/6fd0593c1ef4e07e1d7154ee5072b91b0481c30d/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:9:9-35
+	android:allowBackup
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:10:9-40
+activity#ru.linker.whattodo.MainScreen
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:11:19-45
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:15:27-74
+activity#ru.linker.whattodo.AddTask
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:18:9-45
+	android:name
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:18:19-42
+activity#ru.linker.whattodo.TaskList
+ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:19:9-55
+	android:name
+		ADDED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml:19:19-43
+uses-sdk
+INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.1.1] /root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.1.1] /root/.android/build-cache/37e6ba54866dc4e9b5b1f5454af10427e9129982/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /root/.android/build-cache/14fd0d4ad8ba0c03729e48a409e69c84ee40f4a7/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /root/.android/build-cache/8c4049403a5edb8c40b495dbe3fcb76061d85460/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] /root/.android/build-cache/db24d278b407bc9640a640f986b5d70de1992686/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.1] /root/.android/build-cache/b3f768b239856ab7348a85196275d1bbdaf2d9c5/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.1.1] /root/.android/build-cache/5578e1eedd7cb23dd6563b6e809c52b2fced3f07/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /root/.android/build-cache/2d75c6dcccaa27ba840fe7e4cb71832d042df466/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /root/.android/build-cache/3e5c3a9f489ff13a6dd27ac50dd5b0a8413d48ac/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] /root/.android/build-cache/3ddbe6768ad948affc4f42358e790694fada74c9/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] /root/.android/build-cache/7016986db89041c9274e3eeca99c3da91d3985df/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] /root/.android/build-cache/7a15b39aaef322eb12cc71a87b60402d42cc2615/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-beta5] /root/.android/build-cache/6fd0593c1ef4e07e1d7154ee5072b91b0481c30d/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.1] /root/.android/build-cache/305d5946133b9d7d1336f949b9e0bd2f4aa65dec/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml
+		INJECTED from /mnt/externalHome/endearing/Work/WhatToDo/app/src/main/AndroidManifest.xml

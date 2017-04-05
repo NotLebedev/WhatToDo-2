@@ -1,0 +1,7 @@
+#Wed Apr 05 18:38:46 MSK 2017
+base.0=/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_80d86781d7743cae8fd53c5a37a46ab403795f5c
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1bc283d1f248f12ed6a2e89e560fadc5d16e0c8b/classes.dex
+base.1=/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1bc283d1f248f12ed6a2e89e560fadc5d16e0c8b
+file.0=/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_80d86781d7743cae8fd53c5a37a46ab403795f5c/classes.dex
