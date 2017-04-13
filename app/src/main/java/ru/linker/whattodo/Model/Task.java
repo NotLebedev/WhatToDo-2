@@ -51,7 +51,7 @@ public class Task implements Serializable {
     @Override
     public boolean equals(Object obj) {
 
-        return obj instanceof Task && (((Task) obj).getPriority().equals(priority)) && (((Task) obj).getTaskDescription().equals(taskDescription));
+        return obj instanceof Task && (((Task) obj).getNonDatedPriority().equals(priority)) && (((Task) obj).getTaskDescription().equals(taskDescription));
 
     }
 }
