@@ -106,11 +106,18 @@ public class AddTask extends AppCompatActivity {
             hintTextView.setText(R.string.modify_priority_hint);
             submitButton.setText(R.string.modify_button_text);
             editText.setText(taskPassed.getTaskDescription());
-            seekBar.setProgress(taskPassed.getPriority());
+            seekBar.setProgress(taskPassed.getNonDatedPriority());
+            
+            if (taskPassed instanceof DatedTask) {
+                date = ((DatedTask) taskPassed).getDateEnd();
+            }else {
+                date = Calendar.getInstance();
+            }
         } else {
             isModifyMode = false;
             seekBar.setProgress(seekBar.getProgress() + 1); //Updates View to make it right-colored TODO: find a better solution
             getSupportActionBar().setTitle(R.string.bar_add_title);
+            date = Calendar.getInstance();
         }
 
     }
@@ -153,8 +160,7 @@ public class AddTask extends AppCompatActivity {
 
     public void addDate(View view) {
 
-        final Calendar tmpDate = Calendar.getInstance();
-
+        final Calendar tmpDate = date;
         DatePickerDialog.OnDateSetListener dateSetListener = new DatePickerDialog.OnDateSetListener() {
             @Override
             public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
