@@ -48,7 +48,6 @@ public class MainScreen extends AppCompatActivity {
 
         final Intent intent = new Intent(this, TaskList.class);
 
-        //TODO: add canceling touch, when finger moved out of view
         lvHigh.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -129,8 +128,6 @@ public class MainScreen extends AppCompatActivity {
                 }
             }
         }).start();
-
-        //listView.setEnabled(false);
 
     }
 

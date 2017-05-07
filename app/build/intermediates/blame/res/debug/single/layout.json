@@ -4,12 +4,12 @@
         "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
-        "source": "/root/.android/build-cache/cef9484578ff66240cd3d2041de74425033ecfd7/output/res/layout/design_navigation_menu.xml"
-    },
-    {
         "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/root/.android/build-cache/97a5373305d52f748e806137ede04a52db98dae9/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/mnt/externalHome/endearing/Work/WhatToDo2/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/root/.android/build-cache/cef9484578ff66240cd3d2041de74425033ecfd7/output/res/layout/design_navigation_menu.xml"
     },
     {
         "merged": "/mnt/externalHome/endearing/Work/WhatToDo/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",

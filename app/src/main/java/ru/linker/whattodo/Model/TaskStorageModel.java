@@ -16,7 +16,7 @@ import java.util.Locale;
 import ru.linker.whattodo.ActionListener;
 
 /**
- * Created by root on 2/5/17.
+ * Created by NotLebedev on 2/5/17.
  * Licensed under Attribution-NonCommercial 3.0 Unported
  */
 
@@ -81,10 +81,8 @@ public class TaskStorageModel {
     //Singleton
 
     //TODO: refresh this add policy
-    //This all was created to prevent duplicating tasks in db on star sync
+    //This all was created to prevent duplicating tasks in db on start sync
     private void add(Task task) {
-
-        //System.out.println("Java: addTask called with task : descr " + task.getTaskDescription() + " prior " + task.getPriority());
 
         Comparator<Task> comparator = new Comparator<Task>() {
             @Override
@@ -318,12 +316,32 @@ public class TaskStorageModel {
 
         SQLiteDatabase db = mDbHelper.getWritableDatabase();
 
-        String selection =
-                TaskDbHelper.TaskTable.COLUMN_NAME_DESCRIPTION
-                        + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_PRIORITY +
-                        " = ?";
+        String selection;
+        String[] selectionArgs;
 
-        String[] selectionArgs = {task.getTaskDescription(), task.getPriority().toString()};
+        if (task instanceof DatedTask) {
+
+            selection =
+                    TaskDbHelper.TaskTable.COLUMN_NAME_DESCRIPTION
+                            + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_PRIORITY
+                            + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_IS_DATED
+                            + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_DATE
+                            + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_DATE_START
+                            + " = ?";
+
+            selectionArgs = new String[]{task.getTaskDescription(), task.getNonDatedPriority().toString(),
+                    "1", formDatetime(((DatedTask) task).getDateEnd()), formDatetime(((DatedTask) task).getDateStart())};
+
+        } else {
+
+            selection =
+                    TaskDbHelper.TaskTable.COLUMN_NAME_DESCRIPTION
+                            + " = ? AND " + TaskDbHelper.TaskTable.COLUMN_NAME_PRIORITY +
+                            " = ?";
+
+            selectionArgs = new String[]{task.getTaskDescription(), task.getNonDatedPriority().toString()};
+
+        }
 
         db.delete(TaskDbHelper.TaskTable.TABLE_NAME, selection, selectionArgs);
 

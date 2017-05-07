@@ -25,7 +25,7 @@ import ru.linker.whattodo.Model.TaskStorageModel;
 
 public class AddTask extends AppCompatActivity {
 
-    Task taskPassed;
+    private Task taskPassed;
     private EditText editText;
     private SeekBar seekBar;
     private Button submitButton;
@@ -76,7 +76,6 @@ public class AddTask extends AppCompatActivity {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
                 LayerDrawable ld = (LayerDrawable) seekBar.getProgressDrawable();
-                //ClipDrawable cd = (ClipDrawable) ld.findDrawableByLayerId(R.id.priority_bar);
                 ld.setColorFilter(Color.rgb(progress * 255 / 100, 0, 255 - progress * 255 / 100),
                         PorterDuff.Mode.SRC_IN);
             }
@@ -92,12 +91,7 @@ public class AddTask extends AppCompatActivity {
             }
         });
 
-        //try {
         storageModel = TaskStorageModel.getInstance(this);
-        //} catch (NoContextException e) {
-        //    e.printStackTrace();
-        //}
-
 
         if (taskPassed != null) {
             isModifyMode = true;
@@ -107,17 +101,16 @@ public class AddTask extends AppCompatActivity {
             submitButton.setText(R.string.modify_button_text);
             editText.setText(taskPassed.getTaskDescription());
             seekBar.setProgress(taskPassed.getNonDatedPriority());
-            
+
+            date = Calendar.getInstance();
+
             if (taskPassed instanceof DatedTask) {
-                date = ((DatedTask) taskPassed).getDateEnd();
-            }else {
-                date = Calendar.getInstance();
+                date.setTimeInMillis(((DatedTask) taskPassed).getDateEnd().getTimeInMillis());
             }
         } else {
             isModifyMode = false;
             seekBar.setProgress(seekBar.getProgress() + 1); //Updates View to make it right-colored TODO: find a better solution
             getSupportActionBar().setTitle(R.string.bar_add_title);
-            date = Calendar.getInstance();
         }
 
     }
@@ -132,7 +125,12 @@ public class AddTask extends AppCompatActivity {
             task = new Task(editText.getText().toString(), seekBar.getProgress());
         } else {
             try {
-                task = new DatedTask(editText.getText().toString(), seekBar.getProgress(), date);
+                if (taskPassed != null && taskPassed instanceof DatedTask) {
+                    task = new DatedTask(editText.getText().toString(), seekBar.getProgress(), date, ((DatedTask) taskPassed).getDateStart());
+                } else {
+                    task = new DatedTask(editText.getText().toString(), seekBar.getProgress(), date);
+                }
+
             } catch (DateBeforeTodayException e) {
 
                 new AlertDialog.Builder(this)
@@ -159,6 +157,10 @@ public class AddTask extends AppCompatActivity {
     }
 
     public void addDate(View view) {
+
+        if (date == null) {
+            date = Calendar.getInstance();
+        }
 
         final Calendar tmpDate = date;
         DatePickerDialog.OnDateSetListener dateSetListener = new DatePickerDialog.OnDateSetListener() {

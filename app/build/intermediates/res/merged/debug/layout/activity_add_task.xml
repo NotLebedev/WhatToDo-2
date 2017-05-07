@@ -70,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="addDate"
-            android:text="@string/add_date"/>
+            android:text="@string/add_date" />
 
         <Button
             android:id="@+id/button"

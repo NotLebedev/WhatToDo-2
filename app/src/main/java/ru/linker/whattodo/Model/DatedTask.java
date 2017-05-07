@@ -52,9 +52,9 @@ public class DatedTask extends Task {
     public boolean equals(Object obj) {
 
         if (obj instanceof DatedTask)
-            return super.equals(obj) && (((DatedTask) obj).getDateStart() == this.dateStart) && (((DatedTask) obj).getDateEnd() == this.dateEnd) && (((DatedTask) obj).getDateStart() == this.dateStart);
+            return (((Task) obj).getNonDatedPriority().equals(this.getNonDatedPriority())) && (((Task) obj).getTaskDescription().equals(this.getTaskDescription())) && (((DatedTask) obj).getDateStart().equals(this.dateStart)) && (((DatedTask) obj).getDateEnd().equals(this.dateEnd));
         else
-            return super.equals(obj);
+            return false;
 
     }
 
