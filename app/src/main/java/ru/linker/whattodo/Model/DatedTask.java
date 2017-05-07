@@ -13,6 +13,7 @@ public class DatedTask extends Task {
     private Calendar dateStart;
     private Long dTotal;
 
+    //Used to create new one, picks current date for dateStart
     public DatedTask(String taskDescription, Integer priority, Calendar dateEnd) throws DateBeforeTodayException {
         super(taskDescription, priority);
 
@@ -27,6 +28,7 @@ public class DatedTask extends Task {
 
     }
 
+    //Used to load from db
     public DatedTask(String taskDescription, Integer priority, Calendar dateEnd, Calendar dateStart) throws DateBeforeTodayException {
         super(taskDescription, priority);
 
@@ -50,7 +52,7 @@ public class DatedTask extends Task {
     public boolean equals(Object obj) {
 
         if (obj instanceof DatedTask)
-            return super.equals(obj) && (((DatedTask) obj).getDateStart() == this.dateStart) && (((DatedTask) obj).getDateEnd() == this.dateEnd);
+            return super.equals(obj) && (((DatedTask) obj).getDateStart() == this.dateStart) && (((DatedTask) obj).getDateEnd() == this.dateEnd) && (((DatedTask) obj).getDateStart() == this.dateStart);
         else
             return super.equals(obj);
 
@@ -65,6 +67,7 @@ public class DatedTask extends Task {
         dTotal = dateEnd.getTimeInMillis() - dateStart.getTimeInMillis();
     }
 
+    //This priority method returns priority based on current time, if you need full priotiy(if you want to compare obj, store in db e.t.c) use getNonDatedPriority instead
     @Override
     public Integer getPriority() {
 
